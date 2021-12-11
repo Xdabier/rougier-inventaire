@@ -1,0 +1,272 @@
+{
+    "common": {
+        "syncedLogs": "Billes synchronisées",
+        "lastLogId": "ID dernière bille",
+        "home": "Acceuil",
+        "evacuation": "Évacuation",
+        "log": "Bille",
+        "settings": "Paramètres",
+        "id": "ID",
+        "deviceId": "ID de l'appareil",
+        "syncing": "Synchronisation...",
+        "logId": "ID bille",
+        "syncError": "Erreur de synchronisation, vérifiez peut-être la configuration de votre serveur.",
+        "evacId": "ID Evac",
+        "succSync": "Fiches synchronisées avec succès!",
+        "succAllSync": "Tous les billes ont été synchronisées avec succès!",
+        "evacFileId": "ID fiche évacuation {{fileId}}",
+        "creationDate": "Créé le {{date}}",
+        "lastLogDate": "Dernière bille le {{date}}",
+        "logs": "Billes",
+        "logsNumber": "{{numLogs}} Billes",
+        "addEvacuationFile": "Ajouter fiche évacuation",
+        "editEvacuationFile": "Modifier fiche",
+        "editLog": "Modifier bille",
+        "addLog": "Ajouter bille",
+        "sync": "Synchroniser",
+        "scanBarCode": "Scan code a barre",
+        "serverInfo": "Configurations du serveur",
+        "syncAll": "Synchroniser ",
+        "synced": "Synchronisé",
+        "dupErr": "Identifiant dupliqué !",
+        "fr": "Français",
+        "en": "Anglais",
+        "yes": "Oui",
+        "validate": "Valider",
+        "no": "Non",
+        "code": "Code: {{val}}",
+        "default": "Par défaut",
+        "validErr": "Veuillez vous assurer que tout les champs sont valides.",
+        "requiredField": "Ce champ est requis"
+    },
+    "syncErrors": {
+        "noLogs": "Pas de bille à synchroniser",
+        "allSynced": "Tout est synchronisé"
+    },
+    "noServerData": {
+        "confirm": "Configurer",
+        "no": "Non",
+        "message": "Les données du serveur ne sont pas encore configurées, Voulez-vous les configurer maintenant ? ",
+        "title": "Pas de configuration du serveur!"
+    },
+    "actionSheet": {
+        "searchBar": {
+            "ph": "Filtrez la liste par nom, ex: Jean-pierre "
+        }
+    },
+    "changeLanguageAlert": {
+        "title": "Changement de langue",
+        "message": "voulez-vous vraiment changer de langue ?"
+    },
+    "closeModalAlert": {
+        "title": "Etes-vous sûr ? ",
+        "message": "Vous voulez fermer sans sauvegarder votre formulaire ?",
+        "message_code": "Vous voulez fermer sans scanner le code ?"
+    },
+    "homePage": {
+        "title": "Inventaire"
+    },
+    "logsListPage": {
+        "title": "Billes",
+        "filterInputPh": "Commencez à taper l'id...",
+        "noContent": "Aucune bille ajoutée ."
+    },
+    "evacuation": {
+        "noContent": "Vous devez d'abord ajouter les fiches d'évacuation."
+    },
+    "settings": {
+        "setServer": "Configurer le serveur",
+        "addGasoline": "Ajouter l'essence",
+        "addCuber": "Ajouter cubeur",
+        "addSite": "Ajouter chantier"
+    },
+    "modals": {
+        "aux": {
+            "title": "Ajouter {{val}}",
+            "succMsg": "{{val}} ajouter avec succés!",
+            "succMsgEdit": "{{val}} modifié avec succés!",
+            "confirm": "Confirmer l'ajout de {{val}}",
+            "fields": {
+                "name": {
+                    "label": "Nom",
+                    "ph": "Entrez le nom de {{val}}"
+                },
+                "code": {
+                    "label": "Code",
+                    "ph": "Entrez le code de {{val}}"
+                }
+            }
+        },
+        "cuber": {
+            "name": "cubeur"
+        },
+        "site": {
+            "name": "chantier"
+        },
+        "gasoline": {
+            "name": "essence"
+        },
+        "logs": {
+            "confirm": "Confirmer l'ajout de bille",
+            "succMsg": "Bille ajoutée avec succés!",
+            "succMsgEdit": "Bille modifiée avec succés!",
+            "fields": {
+                "aac": {
+                    "label": "AAC",
+                    "ph": "ex: 23-26-95",
+                    "err": "Merci de respecter ce schéma (un ou deux N°s) - (un ou deux N°s) - (un ou deux N°s)"
+                },
+                "type": {
+                    "label": "Type",
+                    "ph": "Sélectionnez le type"
+                },
+                "sectionNumber": {
+                    "label": "Numéro de tronçon",
+                    "ph": "Ajouter le numéro de tronçon"
+                },
+                "barcode": {
+                    "label": "Code a barre",
+                    "ph": "Entrez le code a barre"
+                },
+                "logging": {
+                    "label": "N° d'abattage",
+                    "ph": "Entrez le N° d'abattage"
+                },
+                "index": {
+                    "label": "N° de tronçon",
+                    "ph": "Entrez le N° de tronçon"
+                },
+                "id": {
+                    "label": "N° de bille",
+                    "ph": "N° d'abattage / N° de tronçon"
+                },
+                "site": {
+                    "label": "Emplacement",
+                    "ph": "Sélectionnez l'emplacement"
+                },
+                "dgb": {
+                    "label": "DGB",
+                    "ph": "Entrez le N° DGB"
+                },
+                "dpb": {
+                    "label": "DPB",
+                    "ph": "Entrez le N° DPB"
+                },
+                "length": {
+                    "label": "Longueur",
+                    "ph": "Entrez le longueur"
+                },
+                "diameterAvg": {
+                    "label": "DIAM moyen",
+                    "ph": "( DGB + DPB ) / 2"
+                },
+                "volume": {
+                    "label": "Volume",
+                    "ph": "Formule de volume"
+                },
+                "quality": {
+                    "label": "Qualité",
+                    "ph": "Entrez la qualité"
+                },
+                "status": {
+                    "label": "Statut",
+                    "ph": "Entrez la statut"
+                },
+                "patternStatus": {
+                    "label": "Motif statut",
+                    "ph": "Entrez la motif statut"
+                },
+                "comments": {
+                    "label": "Commentaire",
+                    "ph": "Entrez la commentaire"
+                }
+            }
+        },
+        "evacuation": {
+            "confirm": "Confirmer l'ajout de fiche",
+            "succMsg": "Fiche évacuation ajouter avec succés!",
+            "succMsgEdit": "Fiche évacuation modifié avec succés!",
+            "fields": {
+                "id": {
+                    "label": "ID de fiche",
+                    "ph": "ex: FICHE-4569",
+                    "err": "L'ID doit être alphanumérique et comporter au moins 3 caractères"
+                },
+                "driver": {
+                    "label": "Chauffeur",
+                    "ph": "Sélectionnez le chauffeur"
+                },
+                "departureParc": {
+                    "label": "Parc de départ",
+                    "ph": "Sélectionner le parc de départ"
+                },
+                "arrivalParc": {
+                    "label": "Parc d'arrivée",
+                    "ph": "Sélectionner le parc d'arrivée"
+                },
+                "departureTime": {
+                    "label": "L'heure de départ",
+                    "ph": "Sélectionnez l'heure de départ"
+                },
+                "arrivalTime": {
+                    "label": "L'heure de d'arrivée",
+                    "ph": "Sélectionnez l'heure d'arrivée"
+                },
+                "date": {
+                    "label": "Date",
+                    "ph": "Veuillez choisir une date"
+                },
+                "transporter": {
+                    "label": "Transporteur",
+                    "ph": "Veuillez indiquer le transporteur",
+                    "err": "Le transporteur doit être alphanumérique et comporter au moins 3 caractères"
+                },
+                "pointer": {
+                    "label": "Pointeur",
+                    "ph": "Veuillez indiquer le pointeur",
+                    "err": "Le pointeur doit être alphanumérique et comporter au moins 3 caractères"
+                },
+                "receiver": {
+                    "label": "Réceptionnaire",
+                    "ph": "Veuillez indiquer le réceptionnaire",
+                    "err": "Le réceptionnaire doit être alphanumérique et comporter au moins 3 caractères"
+                },
+                "truckNumber": {
+                    "label": "Numéro de camion",
+                    "ph": "Veuillez indiquer le numéro du camion",
+                    "err": "Le numéro du camion doit être alphanumérique et comporter au moins 3 caractères"
+                },
+                "evacAsDefault": {
+                    "label": "Choisir comme fiche actuelle"
+                }
+            }
+        },
+        "server": {
+            "confirm": "Sauvegarder",
+            "succMsg": "Les informations du serveur ont été sauvegardées avec succès !",
+            "fields": {
+                "url": {
+                    "label": "URL",
+                    "ph": "ex: https://example.com or http://12.125.236.23",
+                    "err": "Il doit s'agir d'une URL valide."
+                },
+                "port": {
+                    "label": "PORT",
+                    "ph": "ex: 8020 or 8095"
+                },
+                "username": {
+                    "label": "Identifiant",
+                    "ph": "ex: testUser or testuser@gmail.com"
+                },
+                "password": {
+                    "label": "Mot de passe",
+                    "ph": "Le mot de passe du serveur"
+                },
+                "db": {
+                    "label": "Nom de la base de données",
+                    "ph": "Veuillez entrer le nom de la base de données"
+                }
+            }
+        }
+    }
+}

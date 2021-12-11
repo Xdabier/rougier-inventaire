@@ -1,0 +1,268 @@
+{
+  "common": {
+    "syncedLogs": "Synced logs",
+    "lastLogId": "Last log id",
+    "home": "Home",
+    "evacuation": "Evacuation",
+    "log": "Logs",
+    "settings": "Settings",
+    "id": "ID",
+    "deviceId": "Device ID",
+    "syncing": "Synchronization...",
+    "logId": "Log ID",
+    "syncError": "Synchronization error, perhaps check the configuration of your server.",
+    "evacId": "Evac ID",
+    "succSync": "Successfully synchronized!",
+    "succAllSync": "All records have been successfully synchronized!",
+    "evacFileId": "Evacuation form ID {{fileId}}",
+    "creationDate": "Created {{date}}",
+    "lastLogDate": "Last log {{date}}",
+    "logs": "Logs",
+    "logsNumber": "{{numLogs}} logs",
+    "addEvacuationFile": "Add evacuation form",
+    "editEvacuationFile": "Edit form",
+    "editLog": "Edit log",
+    "addLog": "Add log",
+    "sync": "Synchronize",
+    "scanBarCode": "Scan bare-code",
+    "serverInfo": "Server information",
+    "syncAll": "Synchronize",
+    "synced": "Synchronized",
+    "dupErr": "Duplicate identifier!",
+    "fr": "French",
+    "en": "English",
+    "yes": "Yes",
+    "validate": "Confirm",
+    "no": "No",
+    "code": "Code: {{val}}",
+    "default": "Default",
+    "validErr": "Please make sure all the fields are valid.",
+    "requiredField": "This field is required"
+  },
+  "syncErrors": {
+    "noLogs": "No logs to synchronize",
+    "allSynced": "Everything is already synchronized"
+  },
+  "noServerData": {
+    "confirm": "Configure",
+    "no": "No",
+    "message": "The server information is not yet configured, do you want to configure it now? ",
+    "title": "No server settings!"
+  },
+  "actionSheet": {
+    "searchBar": {
+      "ph": "Filter the list by name, ex: Jean-pierre "
+    }
+  },
+  "changeLanguageAlert": {
+    "title": "Language change",
+    "message": "do you really want to change the language ?"
+  },
+  "closeModalAlert": {
+    "title": "Are you sure ?",
+    "message": "Do you want to close without saving your form ?",
+    "message_code": "Do you want to close without scanning the code ? "
+  },
+  "homePage": {
+    "title": "Current inventory stats"
+  },
+  "logsListPage": {
+    "title": "Logs list",
+    "filterInputPh": "Start typing evac id...",
+    "noContent": "No added logs yet."
+  },
+  "evacuation": {
+    "noContent": "You need to add evacuation forms first."
+  },
+  "settings": {
+    "setServer": "Set server information",
+    "addGasoline": "Add gasoline",
+    "addCuber": "Add cuber",
+    "addSite": "Add site"
+  },
+  "modals": {
+    "aux": {
+      "title": "Add {{val}}",
+      "succMsg": "{{val}} added successfully!",
+      "succMsgEdit": "{{val}} edited successfully!",
+      "confirm": "Confirm {{val}} addition",
+      "fields": {
+        "name": {
+          "label": "Name",
+          "ph": "Enter {{val}} name"
+        },
+        "code": {
+          "label": "Code",
+          "ph": "Enter {{val}} code"
+        }
+      }
+    },
+    "cuber": {
+      "name": "cuber"
+    },
+    "site": {
+      "name": "site"
+    },
+    "gasoline": {
+      "name": "gasoline"
+    },
+    "logs": {
+      "confirm": "Confirm log addition",
+      "succMsg": "Log added successfully!",
+      "succMsgEdit": "Log edited successfully!",
+      "fields": {
+        "aac": {
+          "label": "AAC",
+          "ph": "ex: 23-26-95",
+          "err": "It should be following this pattern (one or two numbers)-(one or two numbers)-(one or two numbers)"
+        },
+        "type": {
+          "label": "Type",
+          "ph": "Select type"
+        },
+        "sectionNumber": {
+          "label": "Section number",
+          "ph": "Please add section number"
+        },
+        "barcode": {
+          "label": "Bar code",
+          "ph": "Enter bar code"
+        },
+        "logging": {
+          "label": "Logging number",
+          "ph": "Enter logging number"
+        },
+        "index": {
+          "label": "Indexing number",
+          "ph": "Enter indexing number"
+        },
+        "id": {
+          "label": "Log number",
+          "ph": "logging number / indexing number"
+        },
+        "site": {
+          "label": "Park",
+          "ph": "Select Park"
+        },
+        "dgb": {
+          "label": "DGB",
+          "ph": "Enter DGB number"
+        },
+        "dpb": {
+          "label": "DPB",
+          "ph": "Enter DPB number"
+        },
+        "length": {
+          "label": "Length",
+          "ph": "Enter length value"
+        },
+        "diameterAvg": {
+          "label": "Average dm",
+          "ph": "( DGB + DPB ) / 2"
+        },
+        "volume": {
+          "label": "Volume",
+          "ph": "Volume formula"
+        },
+        "quality": {
+          "label": "Quality",
+          "ph": "Enter quality"
+        },
+        "status": {
+          "label": "Status",
+          "ph": "Enter status"
+        },
+        "patternStatus": {
+          "label": "Motif status",
+          "ph": "Enter pattern status"
+        },
+        "comments": {
+          "label": "Comment",
+          "ph": "Enter comment"
+        }
+      }
+    },
+    "evacuation": {
+      "confirm": "Confirm evacuation form addition",
+      "succMsg": "Evacuation form added successfully!",
+      "succMsgEdit": "Evacuation form edited successfully!",
+      "fields": {
+        "id": {
+          "label": "Form ID",
+          "ph": "ex: FICHE-4569",
+          "err": "The ID should be alpha-num and at least 3 characters."
+        },
+        "driver": {
+          "label": "Driver",
+          "ph": "Please select a driver"
+        },
+        "departureParc": {
+          "label": "Departure parc",
+          "ph": "Please select a departure parc"
+        },
+        "arrivalParc": {
+          "label": "Arrival parc",
+          "ph": "Please select an arrival parc"
+        },
+        "departureTime": {
+          "label": "Departure time",
+          "ph": "Please select a departure time"
+        },
+        "arrivalTime": {
+          "label": "Arrival time",
+          "ph": "Please select an arrival time"
+        },
+        "date": {
+          "label": "Date",
+          "ph": "Please select date"
+        },
+        "transporter": {
+          "label": "Transporter",
+          "ph": "Please indicate the transporter"
+        },
+        "pointer": {
+          "label": "Pointer",
+          "ph": "Please indicate the pointer"
+        },
+        "receiver": {
+          "label": "Receiver",
+          "ph": "Please indicate the receiver"
+        },
+        "truckNumber": {
+          "label": "Truck number",
+          "ph": "Please indicate the truck number"
+        },
+        "evacAsDefault": {
+          "label": "Set this evac as default"
+        }
+      }
+    },
+    "server": {
+      "confirm": "Save new server info",
+      "succMsg": "Server info saved successfully!",
+      "fields": {
+        "url": {
+          "label": "URL",
+          "ph": "ex: https://example.com or http://12.125.236.23",
+          "err": "This should be a valid URL."
+        },
+        "port": {
+          "label": "PORT",
+          "ph": "ex: 8020 or 8095"
+        },
+        "username": {
+          "label": "User name",
+          "ph": "ex: testUser or testuser@gmail.com"
+        },
+        "password": {
+          "label": "Password",
+          "ph": "The server's password"
+        },
+        "db": {
+          "label": "Database name",
+          "ph": "Please enter the database name"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sync_date": "10/27/2021",
+  "sync": true,
+  "billes": [
+    {
+      "barcode": "ghvvhbbbbjjbbb",
+      "emplacement": "21KE",
+      "num_troncon": "ghbhhhhb"
+    },
+    {
+      "barcode": "vjjnbbbbbbb",
+      "emplacement": "24MO",
+      "num_troncon": "ghhjnjgvvggh"
+    },
+    {
+      "barcode": "cucucucucuffuf",
+      "emplacement": "24MO",
+      "num_troncon": "gcycycy uv"
+    },
+    {
+      "barcode": "ftrvhhfbjhlnmog",
+      "emplacement": "24MO",
+      "num_troncon": "fgguhhj"
+    },
+    {
+      "barcode": "ghvbnnnjkiubn",
+      "emplacement": "24MO",
+      "num_troncon": "gvvbbbbn"
+    },
+    {
+      "barcode": "fhvbhbnnnnmk",
+      "emplacement": "21KE",
+      "num_troncon": "rrfygdcg"
+    },
+    {
+      "barcode": "4033100036903",
+      "emplacement": "DTDHGJB",
+      "num_troncon": "15252/3663"
+    },
+    {
+      "barcode": "4033100036903",
+      "emplacement": "24MO",
+      "num_troncon": "ytgvTtgghh"
+    }
+  ]
+}

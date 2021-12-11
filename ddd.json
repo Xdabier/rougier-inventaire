@@ -1,0 +1,21 @@
+{
+  "sync_date": "11/14/2021",
+  "sync": true,
+  "appId": "c3dfd4tfgff4",
+  "billes": [
+    {
+      "barcode": "sgsgsg",
+      "emplacement": "",
+      "type": "Attribution code a barre",
+      "aac": "5-6-7",
+      "num_troncon": "shshsh"
+    },
+    {
+      "barcode": "6191599900032",
+      "emplacement": "4033100036903",
+      "type": "Inventaire",
+      "aac": "66-77-09",
+      "num_troncon": "5-6-77888"
+    }
+  ]
+}

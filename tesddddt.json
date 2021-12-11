@@ -1,0 +1,56 @@
+[
+  [
+    {
+      "aac": "7-5-9",
+      "billes": [
+        {
+          "bar_code": "5449484",
+          "dgb": 54,
+          "diameter_moyen": 49,
+          "dpb": 44,
+          "essence": "MOA",
+          "longeur": 45464,
+          "motif_status": "Jjj",
+          "num_abattage": 45464,
+          "num_bille": "45464/944",
+          "num_indice": 944,
+          "quality": "Gaa",
+          "status": "Sbss",
+          "volume": 2.365
+        },
+        {
+          "bar_code": "1111113131215454",
+          "dgb": 12,
+          "diameter_moyen": 28,
+          "dpb": 44,
+          "essence": "TCH",
+          "longeur": 4444,
+          "num_abattage": 4444,
+          "num_bille": "4444/44444",
+          "num_indice": 44444,
+          "quality": "Aaa",
+          "volume": 2.736
+        },
+        {
+          "bar_code": "55449794646",
+          "dgb": 444,
+          "diameter_moyen": 444,
+          "dpb": 444,
+          "essence": "KOS",
+          "longeur": 144,
+          "num_abattage": 144,
+          "num_bille": "144/1441",
+          "num_indice": 1441,
+          "quality": "Aaaaa",
+          "volume": 6881.276
+        }
+      ],
+      "creation_date": "17/05/2021",
+      "cuber": "S08279",
+      "name": "Abcy",
+      "site": "24MO",
+      "sync": true,
+      "sync_date": "20/06/2021"
+    }
+  ]
+]
